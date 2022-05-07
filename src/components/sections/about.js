@@ -152,7 +152,7 @@ const About = () => {
               <a href="https://www.delsys.net">
                 indústria alimentària <Emoji symbol="‍🐖" label="pig" />
               </a>
-              , també he tingut la sort de treballar en un
+              , també he tingut la sort de treballar en un{' '}
               <a href="http://vitam.udg.edu">
                 grup de recerca <Emoji symbol="‍🔍" label="Magnifying Glass" />
               </a>
