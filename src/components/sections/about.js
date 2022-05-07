@@ -152,14 +152,14 @@ const About = () => {
               <a href="https://www.delsys.net">
                 indústria alimentària <Emoji symbol="‍🐖" label="pig" />
               </a>
-              , també he tingut la sort de treballar en un{' '}
+              , també he tingut la sort de treballar en un
               <a href="http://vitam.udg.edu">
                 grup de recerca <Emoji symbol="‍🔍" label="Magnifying Glass" />
-              </a>{' '}
+              </a>
               de la Universitat de Girona, en una empresa de{' '}
               <a href="https://www.eurofirms.com/es/ca/">
                 selecció de personal <Emoji symbol="‍👥" label="People" />
-              </a>{' '}
+              </a>
               i actualment estic desenvolupant programari pel{' '}
               <a href="https://www.bassolsenergia.com/">
                 sector elèctric <Emoji symbol="‍⚡" label="High Voltage" />
