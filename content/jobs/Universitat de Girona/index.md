@@ -1,7 +1,7 @@
 ---
 date: '2012-01-01'
 title: 'Software Developer'
-company: 'Universitat de Girona'
+company: 'Univ. de Girona'
 range: '2012 - 2014'
 location: ''
 url: 'http://vitam.udg.edu/'
