@@ -19,6 +19,10 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
+  p {
+    text-align: justify;
+  }
+
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -126,43 +130,33 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Java', 'Kotlin', 'TypeScript', 'Node.js', 'Sequelize', 'SQL', 'Angular', 'Git'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">Sobre mi</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              El meu interès pel desenvolupament de programari va començar l'any 2007 quan vaig
+              decidir començar els meus estudis d'informàtica, després d'haver iniciat estudis
+              d'administració i finances (i veure ràpidament que aquell món no estava fet per a mi).
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              La meva trajectòria laboral en el desenvolupament de programari va començar en una
+              empresa local especialitzada en la{' '}
+              <a href="https://www.delsys.net">indústria alimentària</a>, també he tingut la sort de
+              treballar en un <a href="http://vitam.udg.edu">grup de recerca</a> de la Universitat
+              de Girona, en una empresa de{' '}
+              <a href="https://www.eurofirms.com/es/ca/">selecció de personal</a> i actualment estic
+              desenvolupant programari pel{' '}
+              <a href="https://www.bassolsenergia.com/">sector elèctric</a>.
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Algunes de les tecnologies amb les quals he estat treballant recentment són:</p>
           </div>
 
           <ul className="skills-list">
@@ -174,7 +168,8 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              // src="../../images/me.jpg"
+              src="../../images/profile.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

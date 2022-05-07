@@ -65,13 +65,13 @@ const Loader = ({ finishLoading }) => {
         easing: 'easeInOutQuart',
         opacity: 0,
         scale: 0.1,
-        // })
-        // .add({
-        //   targets: '.loader',
-        //   duration: 200,
-        //   easing: 'easeInOutQuart',
-        //   opacity: 0,
-        //   zIndex: -1,
+      })
+      .add({
+        targets: '.loader',
+        duration: 200,
+        easing: 'easeInOutQuart',
+        opacity: 0,
+        zIndex: -1,
       });
   };
 

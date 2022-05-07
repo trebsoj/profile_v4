@@ -172,11 +172,11 @@ const Nav = ({ isHome }) => {
     </div>
   );
 
-  const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-      Resume
-    </a>
-  );
+  // const ResumeLink = (
+  //   <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+  //     Resume
+  //   </a>
+  // );
 
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
@@ -194,7 +194,7 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              {/*<div>{ResumeLink}</div>*/}
             </StyledLinks>
 
             <Menu />
@@ -228,7 +228,7 @@ const Nav = ({ isHome }) => {
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                      {ResumeLink}
+                      {/*{ResumeLink}*/}
                     </div>
                   </CSSTransition>
                 )}

@@ -37,6 +37,7 @@ const StyledHeroSection = styled.section`
   p {
     margin: 20px 0 0;
     max-width: 540px;
+    text-align: justify;
   }
 
   .email-link {
@@ -60,31 +61,22 @@ const Hero = () => {
 
   const one = <h1>josbert.cat</h1>;
   const two = <h2 className="big-heading">Josbert Pedrol</h2>;
-  const three = <h3 className="medium-heading">Software developer</h3>;
+  const three = <h2>Software developer</h2>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        Sóc un desenvolupador de programari especialitzat en java/kotlin (per tasques en segons pla)
+        i node/angular per aplicacions web. Actualment, estic centrat a desenvolupar i millorar les
+        aplicacions de gestió i facturació a{' '}
+        <a href="https://bassolsenergia.com/" target="_blank" rel="noreferrer">
+          Bassols Energia
         </a>
         .
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

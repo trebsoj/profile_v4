@@ -22,21 +22,21 @@ module.exports = {
 
   navLinks: [
     {
-      name: 'About',
+      name: 'Sobre mi',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Experiència',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projectes',
       url: '/#projects',
     },
-    {
-      name: 'Contact',
-      url: '/#contact',
-    },
+    // {
+    //   name: 'Contact',
+    //   url: '/#contact',
+    // },
   ],
 
   colors: {
