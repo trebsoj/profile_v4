@@ -5,6 +5,7 @@ company: 'Delsys'
 range: '2008 - 2010'
 location: ''
 url: 'https://www.delsys.net'
+showInProjects: false
 ---
 
 - Creació i manteniment d'aplicacions utilitzant els llenguatges: Pascal, C#.

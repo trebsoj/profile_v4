@@ -5,6 +5,7 @@ company: 'Eurofirms'
 range: '2011'
 location: ''
 url: 'https://www.eurofirms.com/es/ca/'
+showInProjects: false
 ---
 
 - Manteniment d'equips informàtics (PC, servidors, impressores, xarxes ...).

@@ -5,6 +5,7 @@ company: 'Universitat de Girona'
 range: '2012 - 2014'
 location: ''
 url: 'http://vitam.udg.edu/'
+showInProjects: false
 ---
 
 - Grup BCDS de la Universitat de Girona (Broadband Network Control and Management and Adaptive Hypermedia Systems)

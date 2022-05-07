@@ -162,6 +162,10 @@ const StyledProject = styled.li`
       }
     }
   }
+
+  p {
+    text-align: justify;
+  }
 `;
 
 const Projects = () => {

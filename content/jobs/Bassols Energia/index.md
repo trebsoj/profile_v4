@@ -5,6 +5,7 @@ company: 'Bassols Energia'
 range: '2014 - Actualment'
 location: ''
 url: 'https://www.bassolsenergia.com/'
+showInProjects: false
 ---
 
 - Anàlisis, disseny i control dels projectes.
