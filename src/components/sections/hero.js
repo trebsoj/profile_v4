@@ -62,7 +62,11 @@ const Hero = () => {
 
   const one = <h1>josbert.cat</h1>;
   const two = <h2 className="big-heading">Josbert Pedrol</h2>;
-  const three = <h2>Software developer</h2>;
+  const three = (
+    <h2>
+      <Emoji symbol="🧑‍💻" label="High Voltage" /> Software developer
+    </h2>
+  );
   const four = (
     <>
       <p>
