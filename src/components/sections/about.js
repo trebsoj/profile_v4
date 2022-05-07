@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import Emoji from 'a11y-react-emoji';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -148,12 +149,32 @@ const About = () => {
             <p>
               La meva trajectòria laboral en el desenvolupament de programari va començar en una
               empresa local especialitzada en la{' '}
-              <a href="https://www.delsys.net">indústria alimentària</a>, també he tingut la sort de
-              treballar en un <a href="http://vitam.udg.edu">grup de recerca</a> de la Universitat
-              de Girona, en una empresa de{' '}
-              <a href="https://www.eurofirms.com/es/ca/">selecció de personal</a> i actualment estic
-              desenvolupant programari pel{' '}
-              <a href="https://www.bassolsenergia.com/">sector elèctric</a>.
+              <a href="https://www.delsys.net">
+                indústria alimentària <Emoji symbol="‍🐖" label="pig" />
+              </a>
+              , també he tingut la sort de treballar en un{' '}
+              <a href="http://vitam.udg.edu">
+                grup de recerca <Emoji symbol="‍🔍" label="Magnifying Glass" />
+              </a>{' '}
+              de la Universitat de Girona, en una empresa de{' '}
+              <a href="https://www.eurofirms.com/es/ca/">
+                selecció de personal <Emoji symbol="‍👥" label="People" />
+              </a>{' '}
+              i actualment estic desenvolupant programari pel{' '}
+              <a href="https://www.bassolsenergia.com/">
+                sector elèctric <Emoji symbol="‍⚡" label="High Voltage" />
+              </a>
+              .
+            </p>
+
+            <p>
+              Utilitzo Linux (actualment <a href="https://manjaro.org/download/">Manjaro</a>), sóc
+              fan de les <a href="https://github.com/rothgar/awesome-tuis">TUI</a> (terminal user
+              interfaces) i faig servir un{' '}
+              <a href="/teclat.jpeg" target="_blank">
+                teclat
+              </a>{' '}
+              una mica especial.
             </p>
 
             <p>Algunes de les tecnologies amb les quals he estat treballant recentment són:</p>

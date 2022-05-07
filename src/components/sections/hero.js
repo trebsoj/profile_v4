@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import Emoji from 'a11y-react-emoji';
 // import { email } from '@config';
 
 const StyledHeroSection = styled.section`
@@ -67,11 +68,11 @@ const Hero = () => {
       <p>
         Sóc un desenvolupador de programari especialitzat en java/kotlin (per tasques en segons pla)
         i node/angular per aplicacions web. Actualment, estic centrat a desenvolupar i millorar les
-        aplicacions de gestió i facturació a{' '}
+        aplicacions de gestió i facturació a <Emoji symbol="‍⚡" label="High Voltage" />
         <a href="https://bassolsenergia.com/" target="_blank" rel="noreferrer">
           Bassols Energia
         </a>
-        .
+        <Emoji symbol="‍⚡" label="High Voltage" />.
       </p>
     </>
   );
