@@ -64,14 +64,14 @@ const Hero = () => {
   const two = <h2 className="big-heading">Josbert Pedrol</h2>;
   const three = (
     <h2>
-      <Emoji symbol="🧑‍💻" label="High Voltage" /> Software developer
+      <Emoji symbol="👨🏻‍💻" label="Man Technologist" /> Software developer
     </h2>
   );
   const four = (
     <>
       <p>
         Sóc un desenvolupador de programari especialitzat en java/kotlin (per tasques en segons pla)
-        i node/angular per aplicacions web. Actualment, estic centrat a desenvolupar i millorar les
+        i node/angular per aplicacions web. Actualment, estic centrat a desenvolupar i millorar
         aplicacions de gestió i facturació a <Emoji symbol="‍⚡" label="High Voltage" />
         <a href="https://bassolsenergia.com/" target="_blank" rel="noreferrer">
           Bassols Energia

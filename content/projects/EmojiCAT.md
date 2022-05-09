@@ -7,8 +7,6 @@ ios: ''
 android: ''
 tech:
   - Bash
-  - Rofi
-  - xdotool
 company: ''
 showInProjects: true
 ---

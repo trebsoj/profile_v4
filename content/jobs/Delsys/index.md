@@ -1,6 +1,6 @@
 ---
 date: '2008-01-01'
-title: 'Software Developer'
+title: 'Tècnic de sistemes informàtics'
 company: 'Delsys'
 range: '2008 - 2010'
 location: ''
