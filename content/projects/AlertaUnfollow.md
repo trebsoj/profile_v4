@@ -8,7 +8,7 @@ android: ''
 tech:
   - Kotlin
 company: ''
-showInProjects: true
+showInProjects: false
 ---
 
 Compte d'instagram (Bot) que t'avisa quan perds un seguidor.
