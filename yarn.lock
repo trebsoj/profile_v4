@@ -2258,7 +2258,7 @@
 
 a11y-react-emoji@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/a11y-react-emoji/-/a11y-react-emoji-1.2.0.tgz#6652b0d75821e8bc6ce5050e2b51c4c789eee840"
+  resolved "https://registry.npmjs.org/a11y-react-emoji/-/a11y-react-emoji-1.2.0.tgz"
   integrity sha512-lPzXEHbCfRic4xS5d5hpZm1SLrWH0xL3HvI3ZlqeAIxto0XBfY2gAIh6ftjZptvmqxyhQVDXnfVKiG/bqeek3g==
 
 abort-controller@3.0.0:
@@ -3381,9 +3381,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001196, caniuse-lite@^1.0.30001219:
-  version "1.0.30001282"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001282.tgz"
-  integrity sha512-YhF/hG6nqBEllymSIjLtR2iWDDnChvhnVJqp+vloyt2tEHFG1yBR+ac2B/rOw0qOK0m0lEXU2dv4E/sMk5P9Kg==
+  version "1.0.30001457"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001457.tgz"
+  integrity sha512-SDIV6bgE1aVbK6XyxdURbUE89zY7+k1BBBaOwYwkNCglXlel/E7mELiHC64HQ+W0xSKlqWhV9Wh7iHxUjMs4fA==
 
 caw@^2.0.0, caw@^2.0.1:
   version "2.0.1"
@@ -9548,9 +9548,9 @@ name-all-modules-plugin@^1.0.1:
   integrity sha1-Cr+2rYNXGLn7Te8GdOBmV6lUN1w=
 
 nan@^2.12.1:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
-  integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.17.0.tgz#c0150a2368a182f033e9aa5195ec76ea41a199cb"
+  integrity sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
 
 nanoid@^3.1.20, nanoid@^3.1.22:
   version "3.1.22"
