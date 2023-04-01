@@ -1,8 +1,8 @@
 ---
 date: '2019-10-01'
 title: 'Emoji CAT'
-github: 'https://github.com/trebsoj/emoji-cat'
-external: ''
+github: ''
+external: 'https://github.com/trebsoj/emoji-cat'
 ios: ''
 android: ''
 tech:

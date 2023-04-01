@@ -1,8 +1,8 @@
 ---
 date: '2018-01-01'
 title: 'FacturaE4j'
-github: 'https://github.com/trebsoj/facturae-java'
-external: ''
+github: ''
+external: 'https://github.com/trebsoj/facturae-java'
 ios: ''
 android: ''
 tech:

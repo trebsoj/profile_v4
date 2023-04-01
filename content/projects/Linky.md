@@ -1,14 +1,14 @@
 ---
-date: '2018-01-01'
-title: 'Home app'
-github: 'https://github.com/trebsoj/home-app'
-external: ''
+date: '2019-01-01'
+title: 'Linky'
+github: ''
+external: 'https://github.com/trebsoj/linky'
 ios: ''
 android: ''
 tech:
   - Laravel
   - PHP
-  - MariaDB
+  - MariaDB/MySQL
   - Docker
 company: ''
 showInProjects: true
